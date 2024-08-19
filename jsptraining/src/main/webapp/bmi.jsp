@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Body Mass Index</title>
+        <title>Body Mass Index (BMI)</title>
     </head>
     <body>
         <h1>Body Mass Index</h1>
