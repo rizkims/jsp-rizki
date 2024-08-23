@@ -26,15 +26,16 @@
                     + "\"usia\": [\"30 Tahun\",\"29 Tahun\",\"21 Tahun\" ],"
                     + "\"kota\": [\"Jakarta\", \"Bogor\", \"Depok\", \"Tangerang\"]"
                     + "\"negara\": [\"Indonesia\",\"Malaysia\"]}";
+              JSONObject jsonObject = jsonArray.getJSONObject(i);
             JSONArray jsonArray = new JSONArray(jsonString);
-            
+            /*
             for (int i = 0; i < jsonArray.length(); i++) {
                 JSONObject jsonObject = jsonArray.getJSONObject(i);
                 for (int m = 0; m < jsonObject.length();m++) {
                  
                 }
             }
-                
+             */   
                 String name = jsonObject.getString("name");
                 String email = jsonObject.getString("email");
         %>
