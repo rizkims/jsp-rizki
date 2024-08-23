@@ -19,7 +19,7 @@
             int indah = 20;
             int irwan = 25;
             int inc = 0;
-            for (int umur=budi; umur<andi;umur++){
+            for (int umur=budi; umur<indah;umur++){
                 inc++;
             }
             out.print("Jangka usia Ani dengan Budi : 1 s/d "+inc+" tahun");
